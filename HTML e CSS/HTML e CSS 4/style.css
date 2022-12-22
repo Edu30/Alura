@@ -249,7 +249,7 @@ td, th {
 
 @media screen and (max-width: 480px) {
     .caixa, .principal, .conteúdo-beneficio, .mapa-conteúdo, .video{
-        width: auto;
+        width: 95%;
     }
 
     h1 {
@@ -258,10 +258,15 @@ td, th {
 
     nav {
         position: static;
+        text-align: center;
     }
 
     nav li {
         margin: 0 0 0 10px;
+    }
+
+    .lista-beneficio {
+        margin-bottom: 10px;
     }
 
     .lista-beneficio, .imagem-beneficio {

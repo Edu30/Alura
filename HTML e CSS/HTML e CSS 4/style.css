@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    text-align: justify;
 }
 
 header {
@@ -257,6 +258,10 @@ td, th {
 
     nav {
         position: static;
+    }
+
+    nav li {
+        margin: 0 0 0 10px;
     }
 
     .lista-beneficio, .imagem-beneficio {

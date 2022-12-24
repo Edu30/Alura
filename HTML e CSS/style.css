@@ -3,6 +3,8 @@ body {
     text-align: justify;
 }
 
+/*CSS do cabeçalho */
+
 header {
     background-color: gray;
     padding: 20px 0;
@@ -37,6 +39,8 @@ nav a:hover {
     color: #c78c19;
     text-decoration: underline;
 }
+
+/* CSS da página de produtos */
 
 .produtos {
     width: 940px;
@@ -84,6 +88,8 @@ nav a:hover {
     margin-top: 10px;
 }
 
+/* CSS do rodapé */
+
 footer {
     text-align: center;
     background: url("imagens/bg.jpg");
@@ -95,6 +101,8 @@ footer {
     font-size: 13px;
     margin-top: 20px;
 }
+
+/* CSS da página de contatos */
 
 form {
     margin: 40px 0;
@@ -247,8 +255,13 @@ td, th {
     margin: 2em auto;
 }
 
-@media screen and (max-width: 480px) {
-    .caixa, .principal, .conteúdo-beneficio, .mapa-conteúdo, .video{
+/* CSS para celular */
+
+@media screen and (max-width: 514px) {
+
+    /* CSS da página principal*/
+
+    .caixa, .principal, .conteúdo-beneficio, .mapa-conteúdo, .video, .produtos{
         width: 95%;
     }
 
@@ -272,4 +285,15 @@ td, th {
     .lista-beneficio, .imagem-beneficio {
         width: 100%;
     }
+
+    /* CSS da página de produtos */
+
+    .produtos li {
+        display: block;
+        margin: 0 auto 1em auto;
+        width: 300px;
+    }
+
+    /* CSS da página de contatos */
+
 }

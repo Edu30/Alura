@@ -105,7 +105,8 @@ footer {
 /* CSS da página de contatos */
 
 form {
-    margin: 40px 0;
+    width: 940px;
+    margin: 40px auto;
 }
 
 form label, form legend {
@@ -143,7 +144,13 @@ form label, form legend {
     transform: scale(1.2);
 }
 
+.caixat {
+    width: 940px;
+    margin: 0 auto;
+}
+
 table {
+    width: 55%;
     margin: 20px 0 40px;
 }
 
@@ -261,7 +268,7 @@ td, th {
 
     /* CSS da página principal*/
 
-    .caixa, .principal, .conteúdo-beneficio, .mapa-conteúdo, .video, .produtos{
+    .caixa, .principal, .conteúdo-beneficio, .mapa-conteúdo, .video, .produtos, form, .caixat{
         width: 95%;
     }
 
@@ -293,7 +300,4 @@ td, th {
         margin: 0 auto 1em auto;
         width: 300px;
     }
-
-    /* CSS da página de contatos */
-
 }

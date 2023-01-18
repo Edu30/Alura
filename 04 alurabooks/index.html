@@ -45,27 +45,51 @@
 
     <section class="carrossel">
         <h2 class="carrossel__titulo">Novos lançamentos</h2>
-
-            <!-- Slider main container -->
+        <!-- Slider main container -->
         <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/Liderança.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/Javascript.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/Portugol.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt=""></div>
+            </div>
+        
     
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt=""></div>
-          <div class="swiper-slide"><img src="img/Liderança.svg" alt=""></div>
-          <div class="swiper-slide"><img src="img/Javascript.svg" alt=""></div>
-          <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt=""></div>
-          <div class="swiper-slide"><img src="img/Portugol.svg" alt=""></div>
-          <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt=""></div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
-    
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+
+        <div class="card">
+            <!-- 1º linha-->
+            <div class="card__descricao">
+                <!-- 1º coluna -->
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                    <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+                    <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                </div>
+                <!-- 2º coluna -->
+                <img src="img/Angular.svg" class="descricao__imagem">
+            </div>
+            <!-- 2º linha-->
+            <div class="card__botoes">
+                <!-- 1º coluna -->
+                <ul class="botoes">
+                    <li class="botoes__item"><img src="img/Favoritos.svg" alt=""></li>
+                    <li class="botoes__item"><img src="img/Compras.svg" alt=""></li>
+                </ul>
+                <!-- 2º coluna -->
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>

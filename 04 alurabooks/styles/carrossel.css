@@ -58,6 +58,7 @@
 
 .descricao__texto {
     font-size: 14px;
+    margin-right: 1em;
 }
 
 .botoes__item {
@@ -70,4 +71,9 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
+}
+
+.estrelas {
+    display: flex;
+    margin-bottom: 1em;
 }
